@@ -11,6 +11,10 @@
     ".": {
       "import": "./dist/mjs/index.js",
       "require": "./dist/cjs/index.js"
+    },
+    "./dist/utils": {
+      "import": "./dist/mjs/utils/index.js",
+      "require": "./dist/cjs/utils/index.js"
     }
   },
   "files": [

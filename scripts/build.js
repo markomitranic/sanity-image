@@ -2,7 +2,7 @@
 const esbuild = require("esbuild")
 
 const sharedConfig = {
-  entryPoints: ["src/index.ts"],
+  entryPoints: ["src/index.ts", "src/utils/index.ts"],
   external: ["react"],
   bundle: true,
   minify: true,
